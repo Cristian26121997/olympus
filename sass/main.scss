@@ -39,6 +39,30 @@
 .Newsletter{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+@media (min-with:600px) {
+    .BIENVENIDO {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        padding: 50px;
+    }
+
+    .polera-zeus {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column
+    }
+   
+
+    
 }
 
     

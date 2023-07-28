@@ -12,7 +12,7 @@
 }
 
 .animate__animated.animate__fadeInDown {
-  --animate-duration: 10s;
+  --animate-duration: 5s;
 }
 
 .titulo-polera-zeus {
@@ -43,4 +43,83 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.conjunto-celeste {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.text-conjunto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.conjunto-celeste img {
+  width: 500px;
+  height: 500px;
+}
+
+.conjunto-gris {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.conjunto-gris img {
+  width: 500px;
+  height: 500px;
+}
+
+.text-conjunto-gris {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conjunto-negro {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.text-conjunto-negro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.conjunto-negro img {
+  width: 500px;
+  height: 500px;
+}
+
+.Calzas-mujer {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.Calzas-mujer img {
+  width: 500px;
+  height: 500px;
+}
+
+.text-calzas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,6 @@
+@import "Hombre";
+
+
 .fondo {
     background-color: black;
 }
@@ -12,17 +15,13 @@
 }
 .animate__animated.animate__fadeInDown {
     --animate-duration: 5s;
-  }
-
-.titulo-polera-zeus{
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
-  
-
 }
 
+.titulo-polera-zeus{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+}
 .polera-zeus {
     margin-top: 100px;
     display: flex;
@@ -37,8 +36,9 @@
     margin-left: 20px;
     
   
-
 }
+
+
 .Newsletter{
     display: flex;
     justify-content: center;
@@ -48,74 +48,7 @@
 
 }
 
-.polera-blanca {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10%;
-    margin-top: 10%;
 
-
-
-}
-
-.text-polera-b {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-
-
-}
-
-.polera-blanca img {
-    width: 500px;
-    height: 500px;
-}
-
-.polera-negra {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10%;
-    margin-top: 10%;
-
-}
-
-.text-polera-n {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-
-}
-
-.polera-negra img {
-    width: 500px;
-    height: 500px;
-}
-
-.poleron-blanco {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.text-poleron-blanco {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-}
-.poleron-blanco img {
-    width: 500px;
-    height: 500px;
-
-
-}
 
 .conjunto-celeste {
     color: white;
@@ -241,6 +174,7 @@
     flex-direction: column;
     justify-content: center;
     color: white;
+    text-decoration: none;
 }
 
 .gorra-B img {

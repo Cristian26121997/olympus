@@ -1,38 +1,56 @@
-.polera-blanca {
+.conjunto-celeste {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.text-conjunto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.conjunto-celeste  img {
+    width: 500px;
+    height: 500px;
+}
+
+
+.conjunto-gris{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.conjunto-gris img{
+    width: 500px;
+    height: 500px;
+
+
+}
+.text-conjunto-gris {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.conjunto-negro{
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 10%;
     margin-top: 10%;
 
-
-
 }
 
-.text-polera-b {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-
-
-}
-
-.polera-blanca img {
-    width: 500px;
-    height: 500px;
-}
-
-.polera-negra {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10%;
-    margin-top: 10%;
-
-}
-
-.text-polera-n {
+.text-conjunto-negro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,12 +58,13 @@
 
 }
 
-.polera-negra img {
+.conjunto-negro img {
     width: 500px;
     height: 500px;
+
 }
 
-.poleron-blanco {
+.Calzas-mujer {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,21 +72,13 @@
     margin-top: 10%;
     margin-bottom: 10%;
 }
-
-.text-poleron-blanco {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-}
-.poleron-blanco img {
+.Calzas-mujer img{
     width: 500px;
     height: 500px;
 
-
 }
-
-
-
-
-
+.text-calzas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

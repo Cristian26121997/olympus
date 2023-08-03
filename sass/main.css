@@ -59,114 +59,6 @@
   height: 500px;
 }
 
-@media (max-width: 420px) {
-  .polera-blanca {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .text-polera-b {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    margin-left: 10px;
-    font-size: small;
-  }
-  .polera-blanca img {
-    width: 100%;
-    height: 100%;
-  }
-  .polera-negra {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .text-polera-n {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    margin-right: 10px;
-    font-size: small;
-  }
-  .polera-negra img {
-    width: 100%;
-    height: 100%;
-  }
-  .poleron-blanco {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .text-poleron-blanco {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    margin-left: 10px;
-    font-size: small;
-  }
-  .poleron-blanco img {
-    width: 100%;
-    height: 100%;
-  }
-}
-.fondo {
-  background-color: black;
-}
-
-.BIENVENIDO {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 40px;
-  padding: 50px;
-}
-
-.animate__animated.animate__fadeInDown {
-  --animate-duration: 5s;
-}
-
-.titulo-polera-zeus {
-  display: flex;
-  color: white;
-  margin-top: 20px;
-}
-
-.polera-zeus {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.parrafo-polera {
-  color: white;
-  margin-top: 200px;
-  padding: 50px;
-}
-
-.polera-zeus img {
-  margin-left: 20px;
-}
-
-.Newsletter {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
 .conjunto-celeste {
   color: white;
   display: grid;
@@ -286,4 +178,233 @@
 .gorra-B img {
   width: 500px;
   height: 500px;
+}
+
+/*media pagina hombre*/
+@media (max-width: 420px) {
+  .polera-blanca {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .text-polera-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 10px;
+    font-size: small;
+  }
+  .polera-blanca img {
+    width: 100%;
+    height: 100%;
+  }
+  .polera-negra {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .text-polera-n {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-right: 10px;
+    font-size: small;
+  }
+  .polera-negra img {
+    width: 100%;
+    height: 100%;
+  }
+  .poleron-blanco {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .text-poleron-blanco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 10px;
+    font-size: small;
+  }
+  .poleron-blanco img {
+    width: 100%;
+    height: 100%;
+  }
+  /*pagina mujer*/
+  .conjunto-celeste {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-top: 10%;
+  }
+  .text-conjunto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+  }
+  .conjunto-celeste img {
+    width: 100%;
+    height: 100%;
+  }
+  .conjunto-gris {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .conjunto-gris img {
+    width: 100%;
+    height: 100%;
+  }
+  .text-conjunto-gris {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    margin-right: 20px;
+  }
+  .conjunto-negro {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .text-conjunto-negro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+  }
+  .conjunto-negro img {
+    width: 100%;
+    height: 100%;
+  }
+  .Calzas-mujer {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .Calzas-mujer img {
+    width: 100%;
+    height: 100%;
+  }
+  .text-calzas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    margin-right: 20px;
+  }
+  /*pagina accesorios*/
+  .gorra-A {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .text-gorra-A {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+    font-size: small;
+  }
+  .gorra-A img {
+    width: 100%;
+    height: 100%;
+  }
+  .gorra-B {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .text-gorra-B {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    margin-right: 20px;
+  }
+  .gorra-B img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.fondo {
+  background-color: black;
+}
+
+.BIENVENIDO {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  padding: 50px;
+}
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 5s;
+}
+
+.titulo-polera-zeus {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+}
+
+.polera-zeus {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.parrafo-polera {
+  color: white;
+  margin-top: 200px;
+  padding: 50px;
+}
+
+.polera-zeus img {
+  margin-left: 20px;
+}
+
+.Newsletter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

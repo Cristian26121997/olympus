@@ -1,3 +1,4 @@
+@import "principal";
 @import "Hombre";
 @import "mujer";
 @import "accesorios";
@@ -5,42 +6,6 @@
 
 
 
-.fondo {
-    background-color: black;
-}
-
-.BIENVENIDO {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    padding: 50px;
-}
-.animate__animated.animate__fadeInDown {
-    --animate-duration: 5s;
-}
-
-.titulo-polera-zeus{
-    display: flex;
-    color: white;
-    margin-top: 20px;
-}
-.polera-zeus {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row-reverse
-}
-.parrafo-polera {
-    color: white;
-    margin-top: 200px;
-    padding: 50px;
-}
-.polera-zeus img{
-    margin-left: 20px;
-    
-  
-}
 
 
 .Newsletter{

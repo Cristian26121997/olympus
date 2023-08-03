@@ -1,5 +1,54 @@
-/*media pagina hombre*/
 @media (max-width:420px) {
+
+    /*pagina principal*/
+
+    .fondo {
+        background-color: black;
+    }
+    
+    .text-principal {
+        color: white;
+        display: flex;
+        padding: 10px;
+        font-size: small;
+    
+     
+    }
+    .animate__animated.animate__fadeInDown {
+        --animate-duration: 5s;
+        padding: 10px;
+        font-size: large;
+    }
+    
+    .titulo-polera-zeus{
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-top: 20px;
+    }
+    .polera-zeus {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin: 0px;
+    }
+    .parrafo-polera {
+        color: white;
+        margin: 0px;
+    }
+    .animate__animated .animate__fadeInDown img{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 10px;
+      
+       
+        
+      
+    }
+   
+   /*media pagina hombre*/
     .polera-blanca {
         color: white;
         display: grid;

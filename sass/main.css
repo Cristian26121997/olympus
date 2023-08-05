@@ -17,6 +17,7 @@
 
 .titulo-polera-zeus {
   display: flex;
+  justify-content: center;
   color: white;
   margin-top: 20px;
 }
@@ -25,16 +26,42 @@
   margin-top: 100px;
   display: flex;
   flex-direction: row-reverse;
+  margin-bottom: 50px;
 }
 
 .parrafo-polera {
   color: white;
-  margin-top: 200px;
+  margin-top: 100px;
   padding: 50px;
+  font-size: large;
 }
 
 .polera-zeus img {
   margin-left: 20px;
+}
+
+.nosotros {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.Newsletter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-Hombre {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .polera-blanca {
@@ -96,6 +123,13 @@
 .poleron-blanco img {
   width: 500px;
   height: 500px;
+}
+
+.titulo-mujer {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .conjunto-celeste {
@@ -177,6 +211,13 @@
   justify-content: center;
 }
 
+.titulo-accesorios {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 .gorra-A {
   color: white;
   display: grid;
@@ -228,18 +269,19 @@
     color: white;
     display: flex;
     padding: 10px;
-    font-size: small;
+    font-size: medium;
   }
   .animate__animated.animate__fadeInDown {
     --animate-duration: 5s;
     padding: 10px;
-    font-size: large;
   }
   .titulo-polera-zeus {
     display: flex;
     justify-content: center;
     color: white;
     margin-top: 20px;
+    padding: 0px;
+    font-size: small;
   }
   .polera-zeus {
     margin-top: 20px;
@@ -248,15 +290,33 @@
     flex-direction: column-reverse;
     margin: 0px;
   }
+  .polera-zeus img {
+    margin: 0px;
+  }
   .parrafo-polera {
     color: white;
     margin: 0px;
+    font-size: medium;
+    padding: 10px;
   }
   .animate__animated .animate__fadeInDown img {
     width: 100%;
     height: 100%;
     padding: 0px;
     margin: 10px;
+  }
+  /*pagina nosotros*/
+  .nosotros {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px;
+  }
+  .Newsletter {
+    display: flex;
   }
   /*media pagina hombre*/
   .polera-blanca {
@@ -439,10 +499,4 @@
     width: 100%;
     height: 100%;
   }
-}
-.Newsletter {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }/*# sourceMappingURL=main.css.map */

@@ -10,14 +10,14 @@
         color: white;
         display: flex;
         padding: 10px;
-        font-size: small;
+        font-size: medium;
     
      
     }
     .animate__animated.animate__fadeInDown {
         --animate-duration: 5s;
         padding: 10px;
-        font-size: large;
+        
     }
     
     .titulo-polera-zeus{
@@ -25,6 +25,8 @@
         justify-content: center;
         color: white;
         margin-top: 20px;
+        padding: 0px;
+        font-size: small;
     }
     .polera-zeus {
         margin-top: 20px;
@@ -33,9 +35,15 @@
         flex-direction: column-reverse;
         margin: 0px;
     }
+
+    .polera-zeus img {
+        margin: 0px;
+    }
     .parrafo-polera {
         color: white;
         margin: 0px;
+        font-size: medium;
+        padding: 10px;
     }
     .animate__animated .animate__fadeInDown img{
         width: 100%;
@@ -46,6 +54,26 @@
        
         
       
+    }
+    /*pagina nosotros*/
+
+    .nosotros {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 50px;
+    
+    }
+    
+    .Newsletter{
+        display: flex;
+        
+        
+       
+    
     }
    
    /*media pagina hombre*/

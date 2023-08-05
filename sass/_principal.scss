@@ -16,18 +16,23 @@
 
 .titulo-polera-zeus{
     display: flex;
+    justify-content: center;
     color: white;
     margin-top: 20px;
+    
 }
 .polera-zeus {
     margin-top: 100px;
     display: flex;
-    flex-direction: row-reverse
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+
 }
 .parrafo-polera {
     color: white;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 50px;
+    font-size: large;
 }
 .polera-zeus img{
     margin-left: 20px;
